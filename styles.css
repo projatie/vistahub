@@ -1,5 +1,6 @@
 body {
-background-color: rgb(71, 47, 32);}
+    background-color: rgb(71, 47, 32);
+}
 
 .big-title {
 
@@ -7,11 +8,11 @@ background-color: rgb(71, 47, 32);}
     font-size: 60px;
     font-family: monospace;
     text-align: left;
-    line-height: 1,5;
+    line-height: 1, 5;
     font-weight: 5000;
     font-style: oblique;
     margin-left: 20px;
-color: #f1d6b2;
+    color: #f1d6b2;
     text-shadow: 6px 6px #00000040;
 
 }
@@ -20,9 +21,9 @@ color: #f1d6b2;
     background-color: rgb(125, 90, 75);
     height: 115px;
     border-radius: 20px;
-    margin-top:20px;
+    margin-top: 20px;
     margin-left: 20px;
-    margin-right:20px;
+    margin-right: 20px;
 }
 
 .topnav a {
@@ -35,5 +36,55 @@ color: #f1d6b2;
     margin-top: 10px;
     color: rgb(71, 47, 32);
 }
-.topnav a:hover {background-color: rgb(95, 69, 58);}
-.topnav a.active {color: bisque;}
+
+.topnav a:hover {
+    background-color: rgb(95, 69, 58);
+}
+
+.topnav a.active {
+    color: bisque;
+}
+
+#cookiebox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 550px;
+    text-align: center;
+    padding: 80px, 60px;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 15%;
+    background: rgb(135, 88, 67);
+    color: black;
+    margin-top: 150px;
+    margin-top: 100px;
+
+}
+
+#cookieimg {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+#cookiebox button {
+    background: #371d10;
+    color: floralwhite;
+    padding: 15px 0;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    margin-top: 50px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 120px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
